@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Analog Clock</title>
+</head>
+<body>
+    <div class="center">
+        <canvas id="clockCanvas" width="400" height="400">
+        </canvas>
+    </div>
+    <br/>
+    <div id="radios">
+        <input type="radio" name="tickType" value="Tick" id="rdTick" checked/>
+        <label for="rdTick">Tick</label>
+        <br/>
+        <input type="radio" name="tickType" value="Continuous" id="rdContinuous"/>
+        <label for="rdContinuous">Continuous</label>
+    </div>
+    <div id="byline">
+        By <a href="https://github.com/collantesro">Rolando Collantes</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
