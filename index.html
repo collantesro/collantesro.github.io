@@ -2,25 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+    <title>collantesro.github.io</title>
     <link rel="stylesheet" href="style.css"/>
-    <title>Analog Clock</title>
 </head>
 <body>
-    <div class="center">
-        <canvas id="clockCanvas" width="400" height="400">
-        </canvas>
-    </div>
-    <br/>
-    <div id="radios">
-        <input type="radio" name="tickType" value="Tick" id="rdTick" checked/>
-        <label for="rdTick">Tick</label>
-        <br/>
-        <input type="radio" name="tickType" value="Continuous" id="rdContinuous"/>
-        <label for="rdContinuous">Continuous</label>
+    <div class="flex">
+        <div class="project">
+            <div class="border large">
+                <iframe id="analogclock" src="https://collantesro.github.io/analogclock/"></iframe>
+            </div>
+            <div class="project-title">
+                Analog Clock in HTML Canvas (<a href="https://github.com/collantesro/analogclock">GitHub</a>)
+            </div>
+        </div>
+        <div class="project">
+            <div class="border">
+                <img src="ccsinventory.png" alt="Capstone Project"/>
+            </div>
+            <div class="project-title">Capstone (<a href="https://github.com/collantesro/capstone-public">GitHub</a>)</div>
+        </div>    
+        <div class="project">
+            <div class="border">
+                <a href="https://icarus.cs.weber.edu/~rc63349/CS3580/A6/">
+                    <img src="movierecommendations.png" alt="Movie Recommendation Engine"/>
+                </a>
+            </div>
+            <div class="project-title">
+                    Movie Recommendations (<a href="https://github.com/collantesro/movierec-a6">GitHub</a>)
+            </div>
+        </div>
+        <div class="project">
+                <div class="border">
+                    <img src="gol.png" alt="Game of Life project"/>
+                </div>
+                <div class="project-title">Multiplayer Game of Life (<a href="https://github.com/collantesro/gol">GitHub</a>)</div>
+            </div>
     </div>
     <div id="byline">
-        By <a href="https://github.com/collantesro">Rolando Collantes</a>
+        Web projects by <a href="https://github.com/collantesro">Rolando Collantes</a>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
